@@ -1,6 +1,6 @@
 # REMA Dubai
 
-## Real Estate Market Analysis in Dubai
+## **R**eal **E**state **M**arket **A**nalysis in Dubai
 
 **Trends**  
 [![Data Analyst](https://img.shields.io/static/v1?label=trend&message=Data%20Analyst&color=218c74)](#)
