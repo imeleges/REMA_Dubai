@@ -1,6 +1,8 @@
 # REMA Dubai
 
-## **R**eal **E**state **M**arket **A**nalysis in Dubai
+## Real Estate Market Analysis in Dubai
+
+Analysis of apartments in two areas **DIFC** (Financial Centre) and **Downtown** in Dubai, UAE.
 
 **Trends**  
 [![Data Analyst](https://img.shields.io/static/v1?label=trend&message=Data%20Analyst&color=218c74)](#)
