@@ -4,6 +4,8 @@
 
 Analysis of apartments in two areas **DIFC** (Financial Centre) and **Downtown** in Dubai, UAE.
 
+***
+
 **Trends**  
 [![Data Analyst](https://img.shields.io/static/v1?label=trend&message=Data%20Analyst&color=218c74)](#)
 [![Data Scientist](https://img.shields.io/static/v1?label=trend&message=Data%20Scientist&color=706fd3)](#)
