@@ -52,7 +52,9 @@ In this Dataset, we have information on **4800+** apartments available for rent 
 
 
 <details>
-<summary>Those columns were dropped at the beginning</summary>
+<summary>Dropped columns (click to expand)</summary>
+
+Those columns were dropped at the beginning of analysis
 
 `apartmet-link-href` -  unnecessary for analysis   
 `rent-frequency` - It only contains Yearly listings  
@@ -66,7 +68,10 @@ In this Dataset, we have information on **4800+** apartments available for rent 
 
 ### Data preprocessing
 
-...
+Many columns has **missing values**, such as number of baths, balcony size, building info, furnishing, etc.. Some missing just a few values, other with many and need to be filled or dropped.  
+Different **data type**, for instance price column and area of an apartment set as an object (text, not a number), same with date column.  
+
+All columns was processed, renamed and filled with relevant new or temporary values. Converted to the correct data types.
 
 ### Exploratory Data Analysis
 
@@ -75,6 +80,13 @@ In this Dataset, we have information on **4800+** apartments available for rent 
 #### Adding new features
 
 ...
+
+`Address` - Column with address has name of the city, area, bulding name or even a complex of buildings name.  
+`Date` - this column was splited in four new columns with: Year, Month, Day and Weekday   
+`Price per square foot` - Based on the price and area of the apartment  
+Columns with title, description and features/amenities contains some keywords/pharses and converted to new features  
+`Chiller` - If chiller is free **1**, if not or now infor then **0**
+`Parking` - Same as with chiller
 
 #### Number of uniques per feature
 
