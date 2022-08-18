@@ -6,11 +6,18 @@ Analysis of apartments in two areas **DIFC** (Financial Centre) and **Downtown**
 
 All data was scraped from **Bayut** website on August 9 and saved as **.CSV** file.
 
+## Table content
+- [About Dataset](#about-dataset)
+	- [Content](i#content)
+	- [Dataset Glossary (Column-Wise)](#dataset-glossary-column-wise)
+- ...
+
+
 ## About Dataset
 
 ### Content
 
-In this Dataset, we have information on almost 4700+ apartments available for rent with different parameters like price, address, beds, baths, area-sqft, description-title, description, reference-no, date-added, balcony-size-sqft, parking, building-info-name, building-info-floors, building-info-year, building-info-area-sqft, furnishing, features-amenities.
+In this Dataset, we have information on almost 4800+ apartments available for rent with different parameters like price, address, beds, baths, area-sqft, description-title, description, reference-no, date-added, balcony-size-sqft, parking, building-info-name, building-info-floors, building-info-year, building-info-area-sqft, furnishing, features-amenities.
 
 <p align="center">
   <img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/dataframe.png?raw=true" />
