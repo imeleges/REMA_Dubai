@@ -27,6 +27,8 @@ In this Dataset, we have information on almost 4800+ apartments available for re
 ![Dataset](https://github.com/imeleges/REMA_Dubai/blob/main/img/dataframe.png?raw=true)
 <p style="text-align: center;"><sub>Dataset</sub></p>
 
+<center>Centered text</center>
+
 ### Dataset Glossary (Column-Wise)
 
 `price` -  Listed in AED  
