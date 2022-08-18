@@ -85,7 +85,7 @@ All columns was processed, renamed and filled with relevant new or temporary val
 `Date` - this column was splited in four new columns with: Year, Month, Day and Weekday   
 `Price per square foot` - Based on the price and area of the apartment  
 Columns with title, description and features/amenities contains some keywords/pharses and converted to new features  
-`Chiller` - If chiller is free **1**, if not or now infor then **0**
+`Chiller` - If chiller is free **1**, if not or now infor then **0**  
 `Parking` - Same as with chiller
 
 #### Number of uniques per feature
