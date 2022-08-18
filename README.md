@@ -10,6 +10,10 @@ All data was scraped from **Bayut** website on August 9 and saved as **.CSV** fi
 - [About Dataset](#about-dataset)
 	- [Content](i#content)
 	- [Dataset Glossary](#dataset-glossary-column-wise)
+- Data preprocessing
+- Exploratory Data Analysis
+	- Adding new features
+	- Number of uniques per feature
 - ...
 
 
@@ -17,7 +21,8 @@ All data was scraped from **Bayut** website on August 9 and saved as **.CSV** fi
 
 ### Content
 
-In this Dataset, we have information on almost **4800+** apartments available for rent with different parameters like *price, address, beds, baths, area-sqft, description-title, description, reference-no, date-added, balcony-size-sqft, parking, building-info-name, building-info-floors, building-info-year, building-info-area-sqft, furnishing, features-amenities*.
+In this Dataset, we have information on **4800+** apartments available for rent with different parameters like:  
+*price, address, beds, baths, area-sqft, description-title, description, reference-no, date-added, balcony-size-sqft, parking, building-info-name, building-info-floors, building-info-year, building-info-area-sqft, furnishing, features-amenities*.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/dataframe.png?raw=true">
@@ -58,6 +63,26 @@ In this Dataset, we have information on almost **4800+** apartments available fo
 `building` -  Has only one specific name and the rest is NaN  
 
 </details>
+
+### Data preprocessing
+
+...
+
+### Exploratory Data Analysis
+
+...
+
+#### Adding new features
+
+...
+
+#### Number of uniques per feature
+
+<p align="center">
+	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/num_of_uniq_pfeature.png?raw=true">
+	<sub>Number of uniques per feature</sub>
+</p>
+
 
 ***
 
