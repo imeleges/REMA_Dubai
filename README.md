@@ -19,10 +19,13 @@ All data was scraped from **Bayut** website on August 9 and saved as **.CSV** fi
 
 In this Dataset, we have information on almost 4800+ apartments available for rent with different parameters like price, address, beds, baths, area-sqft, description-title, description, reference-no, date-added, balcony-size-sqft, parking, building-info-name, building-info-floors, building-info-year, building-info-area-sqft, furnishing, features-amenities.
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/dataframe.png?raw=true" />
 </p>
+ -->
 
+![](https://github.com/imeleges/REMA_Dubai/blob/main/img/dataframe.png?raw=true)
+*Dataset*
 
 ### Dataset Glossary (Column-Wise)
 
