@@ -68,10 +68,9 @@ Those columns were dropped at the beginning of analysis
 
 ### Data preprocessing
 
-Many columns has **missing values**, such as number of baths, balcony size, building info, furnishing, etc.. Some missing just a few values, other with many and need to be filled or dropped.  
-Different **data type**, for instance price column and area of an apartment set as an object (text, not a number), same with date column.  
-
-All columns was processed, renamed and filled with relevant new or temporary values. Converted to the correct data types.
+- Many columns has **missing values**, such as number of baths, balcony size, building info, furnishing, etc.. Some missing just a few values, other with many and need to be filled or dropped.  
+- Different **data type**, for instance price column and area of an apartment set as an object (text, not a number), same with date column.  
+- All columns was processed, renamed and filled with relevant new or temporary values. Converted to the correct data types.
 
 ### Exploratory Data Analysis
 
