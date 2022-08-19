@@ -26,7 +26,7 @@ In this Dataset, we have information on **4800+** apartments available for rent 
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/dataframe.png?raw=true">
-	<sub>Dataset</sub>
+	<sub>Dataset preview</sub>
 </p>
 
 
@@ -84,8 +84,8 @@ Those columns were dropped at the beginning of analysis
 `Date` - this column was splited in four new columns with: Year, Month, Day and Weekday   
 `Price per square foot` - Based on the price and area of the apartment  
 Columns with title, description and features/amenities contains some keywords/pharses and converted to new features  
-`Chiller` - If chiller is free **1**, if not or now infor then **0**  
-`Parking` - Same as with chiller
+`Chiller` - If chiller is free **1**, if not or now infor then **0**. Same for `Parking`, `Bills`  
+
 
 #### Number of uniques per feature
 
