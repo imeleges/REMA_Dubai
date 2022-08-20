@@ -4,9 +4,9 @@
 
 **DIFC** (Financial Centre) and **Downtown** areas apartments analysis.
 
-Problem statement:
+**Problem statement:**  
 It is not straight forward for a newcomer to Dubai to understand how prices are assigned to lisitings. E.g. several lisitings of studio, 1 and 2 bedroom apartments in the given two areas of Dubai have appoximately same yearly price. 
-Questions to answer:
+Questions to answer:  
  - How many options are there for different number of bedrooms? 
  - How do studio, 1 and 2 bedroom flats differ in their square areas, features if prcies seem close?
  - What buildings have best combination of location, flat square area and price? 
