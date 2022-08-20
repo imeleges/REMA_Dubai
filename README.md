@@ -1,8 +1,8 @@
 # REMA Dubai
 
-## Real Estate Market Analysis in Dubai, UAE.
+## Residential Rental Real Estate Market Analysis in Dubai, UAE.
 
-Analysis of apartments in two areas **DIFC** (Financial Centre) and **Downtown**.
+**DIFC** (Financial Centre) and **Downtown** areas apartment analysis.
 
 All data was scraped from **Bayut** website on August 9 and saved as **.CSV** file.
 
@@ -21,8 +21,8 @@ All data was scraped from **Bayut** website on August 9 and saved as **.CSV** fi
 
 ### Content
 
-In this Dataset, we have information on **4800+** apartments available for rent with different parameters like:  
-*price, address, beds, baths, area-sqft, description-title, description, reference-no, date-added, balcony-size-sqft, parking, building-info-name, building-info-floors, building-info-year, building-info-area-sqft, furnishing, features-amenities*.
+In this Dataset, we have information for **4800+** apartments available for rent in Downtown Dubai and DIFC areas in August 2022 and having different parameters like:  
+*price, address, number of bedrooms, area in sqft, description, building info, amenities, etc.*
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/dataframe.png?raw=true">
@@ -36,17 +36,17 @@ In this Dataset, we have information on **4800+** apartments available for rent 
 `address` - Including the name of the building or/and complex, district, city  
 `beds` - Number of bedrooms  
 `baths` - Number of bathrooms  
-`area-sqft` - Area of the apartment in square foot  
+`area-sqft` - Area of the apartment in square feet  
 `description-title` - Title of a listing  
-`description` - Description with lots of additional information  
+`description` - Description with a lot of additional information  
 `reference-no` - Reference number on the website  
 `date-added` - Publishing date includes Day, Month and Year  
-`balcony-size-sqft` - Area of the balcony in square foot  
+`balcony-size-sqft` - Area of the balcony in square feet  
 `parking` - Yes/No   
 `building-info-name` - Unique building name  
 `building-info-floors` - Number of levels (floors) in the building  
 `building-info-year` - Year when the building was constructed   
-`building-info-area-sqft` - Total building area in square foot  
+`building-info-area-sqft` - Total building area in square feet  
 `furnishing` - Furnished/Unfurnished   
 `features-amenities` - Additional features  
 
@@ -57,20 +57,20 @@ In this Dataset, we have information on **4800+** apartments available for rent 
 Those columns were dropped at the beginning of analysis
 
 `apartmet-link-href` -  unnecessary for analysis   
-`rent-frequency` - It only contains Yearly listings  
+`rent-frequency` - only Yearly listings were parsed  
 `web-scraper-order` -  unnecessary for analysis   
 `web-scraper-start-url` -  unnecessary for analysis   
 `pagination` -  unnecessary for analysis   
-`apartmet-link` -  unnecessary for analysis but could be merged later   
-`building` -  Has only one specific name and the rest is NaN  
+`apartmet-link` -  unnecessary for analysis but could be added back later   
+`building` -  only one name value and the rest is missing values  
 
 </details>
 
 ### Data preprocessing
 
-- Many columns has **missing values**, such as number of baths, balcony size, building info, furnishing, etc.. Some missing just a few values, other with many and need to be filled or dropped.  
-- Different **data type**, for instance price column and area of an apartment set as an object (text, not a number), same with date column.  
-- All columns was processed, renamed and filled with relevant new or temporary values. Converted to the correct data types.
+- Many columns contained **missing values** (e.g. number of bathrooms, balcony size, building info, furnishing, etc.) Some have only a few missing, others, many and so those were either filled out with info that is missing or the coulmn was be dropped altother as it doesn't bring value.
+- **Data types** were changed to descrese memory usage, e.g price column and area converted from object (text) to number and date column - from object to date type.  
+- All columns were renamed and filled with relevant values.
 
 ### Exploratory Data Analysis
 
@@ -80,18 +80,18 @@ Those columns were dropped at the beginning of analysis
 
 ...
 
-`Address` - Column with address has name of the city, area, bulding name or even a complex of buildings name.  
-`Date` - this column was splited in four new columns with: Year, Month, Day and Weekday   
-`Price per square foot` - Based on the price and area of the apartment  
-Columns with title, description and features/amenities contains some keywords/pharses and converted to new features  
-`Chiller` - If chiller is free **1**, if not or now infor then **0**. Same for `Parking`, `Bills`  
+`Address` - column containing listing's address was split into columns: city, area, bulding name and tower complex name.  
+`Date` - column was split into four: Year, Month, Day and Weekday   
+`Price per square foot` - calculated from listing price devided by the apartment area  
+Text containing columns title, description and features/amenities contain some keywords that were converted to new features:  
+`Chiller` - asssigned **1** when chiller is free, **0** otherwise. Same for `Parking`, `Bills`  
 
 
 #### Number of uniques per feature
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/num_of_uniq_pfeature.png?raw=true">
-	<sub>Number of uniques per feature</sub>
+	<sub>Number of unique values per feature</sub>
 </p>
 
 
