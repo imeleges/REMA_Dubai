@@ -128,7 +128,7 @@ Logarithmically scaled prices displaying data over a very wide range of values i
 	<sub>Prices up to 700,000</sub>
 </p>
 
-The look into more common range of prices for all types of bedroom, shows that majority of all listins are between 90,000 and 300,000 AED. With very noticeble spike for one bedroom apartments in aproximatly 100,000 AND.
+The look into more common range of prices for every number of bedrooms, shows that majority of all listings are between 90,000 and 300,000 AED. With very noticeble spike for one bedroom apartments at aproximatly 100,000 AED.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/all_bdr_prices_boxplot.png?raw=true">
