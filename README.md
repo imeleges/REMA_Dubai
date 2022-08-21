@@ -107,7 +107,10 @@ On the diagram above some columns have a high number of unique values ex. **759 
 
 #### Prices 
 
-Prices range start at minimum of 40,000 AED and up to 3,000,000 AED, with median value of 180,000 AED.
+Prices range start: 
+- at minimum of 40,000 AED 
+- and up to 3,000,000 AED, 
+- with median value of 180,000 AED.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/prices_all.png?raw=true">
@@ -135,7 +138,8 @@ The look into more common range of prices for every number of bedrooms, shows th
 	<sub>Prices boxplot</sub>
 </p>
 
-...
+Using boxplot as a method for graphically demonstrating the locality, spread and skewness groups of prices for every number of bedrooms. This diagram indicating variability outside the upper and lower quartiles.  
+Interstingly that interquartile range for sdudios and 1 bedrom apartmens are almost the same. Boxplot for studios has a nearly normal distribution, where for 1 bedrooms has slight shift to the right.
 
 #### Area
 
