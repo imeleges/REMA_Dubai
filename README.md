@@ -161,7 +161,7 @@ Text containing columns title, description and features/amenities contain some k
 ...
 
 <p align="center">
-	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/1bdr_prices_boxplot.png?raw=true">
+	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/1bdr_prices_poxplot.png?raw=true">
 	<sub>1 bedroom prices boxplot</sub>
 </p>
 
