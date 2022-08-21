@@ -23,6 +23,9 @@ All data was scraped from **Bayut** website on August 9 and saved as **.CSV** fi
 - Exploratory Data Analysis
 	- Adding new features
 	- Number of uniques per feature
+	- Prices
+	- Area
+	- Bedrooms
 - ...
 
 
@@ -139,16 +142,23 @@ The look into more common range of prices for every number of bedrooms shows tha
 </p>
 
 Boxplot graphically demonstrates the locality, spread and skewness groups of prices for every number of bedrooms. This diagram indicates variability outside of the upper and lower quartiles.  
-Interestingly interquartile range for studios and 1 bedroom apartments is almost the same. Boxplot for studios has a nearly normal distribution, where 1 bedroom listings' distribution has a slightly heavier right tail.
+Interestingly interquartile range for studios and 1 bedroom apartments is almost the same. Boxplot for studios has a nearly normal distribution, where 1 bedroom listings' distribution has a slightly heavier right tail. That discovery raises a new question, why to rent a studio if it's in the same price range as one bedroom listings. Perhaps those studios has larger areas.
 
 #### Area
+
+Area range: 
+- start at minimum of 37 sqft
+- and goes up to 6,792 sqft,
+- with median value of  1346 sqft.
+
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/area_4_500.png?raw=true">
 	<sub>Area in sqft up to 4,500</sub>
 </p>
 
-...
+On the diagram above is clearly visible difference in total areas, with just minor overlap of 1700-2000 sqrt for 2 and 3 bedroom apartments.  
+Even though there's some studios has areas above 750 sqrt, still most of them are well appart from 1 bedroom apartments.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/all_bdr_area_boxplot.png?raw=true">
