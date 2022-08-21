@@ -87,7 +87,7 @@ Below is data analisys using visual techniques to discover trends, patterns, or 
 
 #### Adding new features
 
-Data enrichment step to append or enhance collected data with relevant context obtained from other columns.
+Data enrichment step here is to append or enhance collected data with relevant context obtained from other columns.
 
 `Address` - column containing listing's address was split into columns: city, area, bulding name and tower complex name.  
 `Date` - column was split into four: Year, Month, Day and Weekday   
@@ -103,13 +103,13 @@ Text containing columns title, description and features/amenities contain some k
 	<sub>Number of unique values per feature</sub>
 </p>
 
-On the diagram above some columns have a high number of unique values ex. **759 options for area in sqrt** while other much fewer ex. **chiller free Yes/No**
+On the diagram above some columns have a high number of unique values ex. **759 options for area in sqrt** while others have much fewer variantions ex. **chiller free Yes/No**
 
 #### Prices 
 
-Prices range start: 
-- at minimum of 40,000 AED 
-- and up to 3,000,000 AED, 
+Prices range: 
+- start at minimum of 40,000 AED 
+- and goes up to 3,000,000 AED, 
 - with median value of 180,000 AED.
 
 <p align="center">
@@ -117,7 +117,7 @@ Prices range start:
 	<sub>Prices for all listings</sub>
 </p>
 
-Outliers start from price 500,000 and up to 3,000,000. Most likely it's a huge apartment with many rooms and more luxurious or simply a mistake in numbers.
+Outliers start from price 500,000 and spead up to 3,000,000. Most likely it's a huge apartment with many rooms and that is more luxurious or it's simply a typo in numbers.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/prices_logs.png?raw=true">
@@ -131,7 +131,7 @@ Logarithmically scaled prices displaying data over a very wide range of values i
 	<sub>Prices up to 700,000</sub>
 </p>
 
-The look into more common range of prices for every number of bedrooms, shows that majority of all listings are between 90,000 and 300,000 AED. With very noticeble spike for one bedroom apartments at aproximatly 100,000 AED.
+The look into more common range of prices for every number of bedrooms shows that majority of all listings are between 90,000 and 300,000 AED. With a very noticeble spike for one bedroom apartments at aproximatly 100,000 AED.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/all_bdr_prices_boxplot.png?raw=true">
@@ -139,7 +139,7 @@ The look into more common range of prices for every number of bedrooms, shows th
 </p>
 
 Boxplot graphically demonstrates the locality, spread and skewness groups of prices for every number of bedrooms. This diagram indicates variability outside of the upper and lower quartiles.  
-Interestingly interquartile range for studios and 1 bedroom apartments is almost the same. Boxplot for studios has a nearly normal distribution, where 1 bedrooms distribution has a slight shift to the right.
+Interestingly interquartile range for studios and 1 bedroom apartments is almost the same. Boxplot for studios has a nearly normal distribution, where 1 bedroom listings' distribution has a slightly heavier right tail.
 
 #### Area
 
