@@ -83,11 +83,11 @@ Those columns were dropped at the beginning of analysis
 
 ### Exploratory Data Analysis
 
-...
+Below is data analisys using visual techniques to discover trends, patterns, or to check assumptions with the help of statistical summary and graphical representations.
 
 #### Adding new features
 
-...
+Data enrichment step to append or enhance collected data with relevant context obtained from other columns.
 
 `Address` - column containing listing's address was split into columns: city, area, bulding name and tower complex name.  
 `Date` - column was split into four: Year, Month, Day and Weekday   
@@ -96,37 +96,39 @@ Text containing columns title, description and features/amenities contain some k
 `Chiller` - asssigned **1** when chiller is free, **0** otherwise. Same for `Parking`, `Bills`  
 
 
-#### Number of uniques per feature
+#### Number of unique values per feature
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/num_of_uniq_pfeature.png?raw=true">
 	<sub>Number of unique values per feature</sub>
 </p>
 
-...
+On the diagram above some columns have a high number of unique values ex. **759 options for area in sqrt** while other much fewer ex. **chiller free Yes/No**
 
 #### Prices 
+
+Prices range start at minimum of 40,000 AED and up to 3,000,000 AED, with median value of 180,000 AED.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/prices_all.png?raw=true">
 	<sub>Prices for all listings</sub>
 </p>
 
-...
+Outliers start from price 500,000 and up to 3,000,000. Most likely it's a huge apartment with many rooms and more luxurious or simply a mistake in numbers.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/prices_logs.png?raw=true">
-	<sub>Logariphmicaly scaled prices</sub>
+	<sub>Log scaled prices</sub>
 </p>
 
-...
+Logarithmically scaled prices displaying data over a very wide range of values in a compact way.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/prices_700_000.png?raw=true">
 	<sub>Prices up to 700,000</sub>
 </p>
 
-...
+The look into more common range of prices for all types of bedroom, shows that majority of all listins are between 90,000 and 300,000 AED. With very noticeble spike for one bedroom apartments in aproximatly 100,000 AND.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/all_bdr_prices_boxplot.png?raw=true">
