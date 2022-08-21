@@ -138,8 +138,8 @@ The look into more common range of prices for every number of bedrooms, shows th
 	<sub>Prices boxplot</sub>
 </p>
 
-Using boxplot as a method for graphically demonstrating the locality, spread and skewness groups of prices for every number of bedrooms. This diagram indicating variability outside the upper and lower quartiles.  
-Interestingly that interquartile range for sdudios and 1 bedroom apartments are almost the same. Boxplot for studios has a nearly normal distribution, where for 1 bedrooms has slight shift to the right.
+Boxplot graphically demonstrates the locality, spread and skewness groups of prices for every number of bedrooms. This diagram indicates variability outside of the upper and lower quartiles.  
+Interestingly interquartile range for studios and 1 bedroom apartments is almost the same. Boxplot for studios has a nearly normal distribution, where 1 bedrooms distribution has a slight shift to the right.
 
 #### Area
 
