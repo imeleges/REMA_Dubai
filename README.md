@@ -103,6 +103,69 @@ Text containing columns title, description and features/amenities contain some k
 	<sub>Number of unique values per feature</sub>
 </p>
 
+...
+
+#### Prices 
+
+<p align="center">
+	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/prices_all.png?raw=true">
+	<sub>Prices for all listings</sub>
+</p>
+
+...
+
+<p align="center">
+	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/prices_logs.png?raw=true">
+	<sub>Logariphmicaly scaled prices</sub>
+</p>
+
+...
+
+<p align="center">
+	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/prices_700_000.png?raw=true">
+	<sub>Prices up to 700,000</sub>
+</p>
+
+...
+
+<p align="center">
+	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/all_bdr_prices_boxplot.png?raw=true">
+	<sub>Prices boxplot</sub>
+</p>
+
+...
+
+#### Area
+
+<p align="center">
+	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/area_4_500.png?raw=true">
+	<sub>Area in sqft up to 4,500</sub>
+</p>
+
+...
+
+<p align="center">
+	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/all_bdr_area_boxplot.png?raw=true">
+	<sub>Area of each beadroom boxplot</sub>
+</p>
+
+...
+
+#### Bedrooms
+
+<p align="center">
+	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/number_of_bdrs.png?raw=true">
+	<sub>Number of bedrooms</sub>
+</p>
+
+...
+
+<p align="center">
+	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/1bdr_prices_boxplot.png?raw=true">
+	<sub>1 bedroom prices boxplot</sub>
+</p>
+
+...
 
 ***
 
