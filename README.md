@@ -222,8 +222,8 @@ For current tasks in this project on the next steps will be reviewed apartments 
 
 
 <p align="center">
-	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/1bdr_prices_poxplot.png?raw=true">
-	<sub>1 bedroom prices boxplot</sub>
+	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/1_2_bdr_prices.png?raw=true">
+	<sub>1 & 2 bedroom prices from 60,000 to 450,000</sub>
 </p>
 
 ...
