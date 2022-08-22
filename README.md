@@ -186,11 +186,11 @@ On the diagram above difference in total areas is clearly visible, with just a m
 	<sub>Area of each beadroom boxplot</sub>
 </p>
 
-Even though there're some studios with area above 750 sqft, still most of them are well apart from 1 bedroom apartments.
+Even though there're some studios with area above 750 sqft, still most of them are well apart from 1 bedroom listings.
 
 #### Bedrooms
 
-After all data preprocessing there's 4,802 listings left with total numbers for:  
+After all data preprocessing there're 4,802 apartments left, listed below grouped by number of bedrooms:  
 
 - Studio: 435
 - 1 Bedroom: 1474
@@ -204,7 +204,7 @@ After all data preprocessing there's 4,802 listings left with total numbers for:
 	<sub>Number of bedrooms</sub>
 </p>
 
-**TOP-3** most listesd options would be for 2, 1 and then 3-bedroom apartments.  
+**TOP-3** most listed options would be 2, 1 and then 3-bedroom apartments respectively.  
 
 ***
 
