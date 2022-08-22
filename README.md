@@ -19,13 +19,13 @@ All data was scraped from **Bayut** website on August 9 and saved as **.CSV** fi
 - [About Dataset](#about-dataset)
 	- [Content](i#content)
 	- [Dataset Glossary](#dataset-glossary-column-wise)
-- Data preprocessing
-- Exploratory Data Analysis
-	- Adding new features
-	- Number of uniques per feature
-	- Prices
-	- Area
-	- Bedrooms
+- [Data preprocessing](#data-preprocessing)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+	- [Adding new features](#adding-new-features)
+	- [Number of uniques per feature](#number-of-unique-values-per-feature)
+	- [Prices](#prices)
+	- [Area](#area)
+	- [Bedrooms](#bedrooms)
 - ...
 
 
