@@ -207,9 +207,16 @@ After all data preprocessing there's 4,802 listings left with total numbers for:
 **TOP-3** most listesd options would be for 2, 1 and then 3-bedroom apartments.  
 For current tasks in this project on the next steps will be reviewed apartments for 1 and 2 bedrooms listings.
 
+
+## 1 and 2 bedroom aparments analysis
+
 ### 1 Bedroom apartments
 
 #### Prices
+For 1474 listing of 1 bedroom apartments prices are vary
+min      59998.00
+50%     115000.00
+max     280000.00
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/1bdr_prices_poxplot.png?raw=true">
