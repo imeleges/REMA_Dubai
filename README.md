@@ -142,6 +142,7 @@ The look into more common range of prices for every number of bedrooms shows tha
 </p>
 
 Boxplot graphically demonstrates the locality, spread and skewness groups of prices for every number of bedrooms. This diagram indicates variability outside of the upper and lower quartiles.  
+
 Interestingly interquartile range for studios and 1 bedroom apartments is almost the same. Boxplot for studios has a nearly normal distribution, where 1 bedroom listings' distribution has a slightly heavier right tail. That discovery raises a new question, why to rent a studio if it's in the same price range as one bedroom listings. Perhaps those studios has larger areas.
 
 #### Area
@@ -158,6 +159,7 @@ Area range:
 </p>
 
 On the diagram above difference in total areas is clearly visible, with just a minor overlap of 1700-2000 sqft for 2 and 3 bedroom apartments.  
+
 Even though there're some studios with area above 750 sqft, still most of them are well apart from 1 bedroom apartments.
 
 <p align="center">
