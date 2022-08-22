@@ -6,6 +6,7 @@
 
 **Problem statement:**  
 It is not straight forward for a newcomer to Dubai to understand how prices are assigned to lisitings. E.g. at first glance several lisitings of studio and 1 bedroom apartments in the given two areas of Dubai have appoximately same yearly price.  
+
 Questions to answer:  
  - How many options are there for different number of bedrooms? 
  - How do studio, 1 and 2 bedroom flats differ in their square areas, features if prcies seem close?
@@ -13,7 +14,7 @@ Questions to answer:
  - ...
 
 
-All data was scraped from **Bayut** website on August 9 and saved as **.CSV** file.
+All data was scraped from **Bayut** website on **August 9, 2022** and saved as **.CSV** file.
 
 ## Table of contents
 - [About Dataset](#about-dataset)
