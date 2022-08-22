@@ -4,6 +4,8 @@
 
 **DIFC** (Financial Centre) and **Downtown** areas apartments analysis.
 
+[![Data Analyst](https://img.shields.io/static/v1?label=trend&message=Data%20Analyst&color=218c74)](#) [![Data Scientist](https://img.shields.io/static/v1?label=trend&message=Data%20Scientist&color=706fd3)](#)
+
 **Problem statement:**  
 It is not straight forward for a newcomer to Dubai to understand how prices are assigned to lisitings. E.g. at first glance several lisitings of studio and 1 bedroom apartments in the given two areas of Dubai have appoximately same yearly price.  
 
@@ -192,11 +194,11 @@ Even though there're some studios with area above 750 sqft, still most of them a
 
 ***
 
-**Trends**  
+### Trends
 [![Data Analyst](https://img.shields.io/static/v1?label=trend&message=Data%20Analyst&color=218c74)](#)
 [![Data Scientist](https://img.shields.io/static/v1?label=trend&message=Data%20Scientist&color=706fd3)](#)
 
-**Tools and Skills**  
+### Tools and Skills
 [![Pandas](https://img.shields.io/static/v1?label=tool&message=Pandas&color=40407a)](#) 
 [![Python](https://img.shields.io/static/v1?label=tool&message=Python&color=33d9b2)](#) 
 [![Matplotlib](https://img.shields.io/static/v1?label=tool&message=Matplotlib&color=706fd3)](#) 
