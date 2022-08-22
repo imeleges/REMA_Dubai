@@ -96,7 +96,7 @@ Those columns were dropped at the beginning of analysis
 ### Data preprocessing
 
 - Many columns contained **missing values** (e.g. number of bathrooms, balcony size, building info, furnishing, etc.) Some have only a few missing, others, many and so those were either filled out with info that is missing or the coulmn was be dropped altother as it doesn't bring value.
-- **Data types** were changed to descrese memory usage, e.g price column and area converted from object (text) to number and date column - from object to date type.  
+- **Data types** were changed to decrease memory usage, e.g price column and area converted from object (text) to number and date column - from object to date type.  
 - All columns were renamed and filled with relevant values.
 
 ***
