@@ -17,11 +17,11 @@
 [![Data preprocessing](https://img.shields.io/static/v1?label=skill&message=Data%20Preprocessing&color=B33771)](#)  
 
 **Problem statement:**  
-It is not straight forward for a newcomer to Dubai to understand how prices are assigned to listings. E.g. at first glance several lisitings of studio and 1 bedroom apartments in the given two areas of Dubai have appoximately same yearly price.  
+It is not straight forward for a newcomer to Dubai to understand how prices are assigned to listings. E.g. at first glance several listings of studio and 1 bedroom apartments in the given two areas of Dubai have approximately same yearly price.  
 
 Questions to answer:  
  - How many options are there for different number of bedrooms? 
- - How do studio, 1 and 2 bedroom flats differ in their square areas, features if prcies seem close?
+ - How do studio, 1 and 2 bedroom flats differ in their square areas, features if prices seem close?
  - What buildings have best combination of location, flat square area and price? 
  - ...
 
@@ -95,7 +95,7 @@ Those columns were dropped at the beginning of analysis
 
 ### Data preprocessing
 
-- Many columns contained **missing values** (e.g. number of bathrooms, balcony size, building info, furnishing, etc.) Some have only a few missing, others, many and so those were either filled out with info that is missing or the coulmn was be dropped altother as it doesn't bring value.
+- Many columns contained **missing values** (e.g. number of bathrooms, balcony size, building info, furnishing, etc.) Some have only a few missing, others, many and so those were either filled out with info that is missing or the column was be dropped altother as it doesn't bring value.
 - **Data types** were changed to decrease memory usage, e.g price column and area converted from object (text) to number and date column - from object to date type.  
 - All columns were renamed and filled with relevant values.
 
@@ -103,17 +103,17 @@ Those columns were dropped at the beginning of analysis
 
 ### Exploratory Data Analysis
 
-Below is data analisys using visual techniques to discover trends, patterns, or to check assumptions with the help of statistical summary and graphical representations.
+Below is data analysis using visual techniques to discover trends, patterns, or to check assumptions with the help of statistical summary and graphical representations.
 
 #### Adding new features
 
 Data enrichment step here is to append or enhance collected data with relevant context obtained from other columns.
 
-`Address` - column containing listing's address was split into columns: city, area, bulding name and tower complex name.  
+`Address` - column containing listing's address was split into columns: city, area, building name and tower complex name.  
 `Date` - column was split into four: Year, Month, Day and Weekday   
-`Price per square foot` - calculated from listing price devided by the apartment area  
+`Price per square foot` - calculated from listing price divided by the apartment area  
 Text containing columns title, description and features/amenities contain some keywords that were converted to new features:  
-`Chiller` - asssigned **1** when chiller is free, **0** otherwise. Same for `Parking`, `Bills`  
+`Chiller` - assigned **1** when chiller is free, **0** otherwise. Same for `Parking`, `Bills`  
 
 
 #### Number of unique values per feature
@@ -123,7 +123,7 @@ Text containing columns title, description and features/amenities contain some k
 	<sub>Number of unique values per feature</sub>
 </p>
 
-On the diagram above some columns have a high number of unique values ex. **759 options for area in sqrt** while others have much fewer variantions ex. **chiller free Yes/No**
+On the diagram above some columns have a high number of unique values ex. **759 options for area in sqrt** while others have much fewer variations ex. **chiller free Yes/No**
 
 #### Prices 
 
@@ -137,7 +137,7 @@ Prices range:
 	<sub>Prices for all listings</sub>
 </p>
 
-Outliers start from price 500,000 and spead up to 3,000,000. Most likely it's a huge apartment with many rooms and that is more luxurious or it's simply a typo in numbers.
+Outliers start from price 500,000 and spread up to 3,000,000. Most likely it's a huge apartment with many rooms and that is more luxurious or it's simply a typo in numbers.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/prices_logs.png?raw=true">
@@ -151,7 +151,7 @@ Logarithmically scaled prices displaying data over a very wide range of values i
 	<sub>Prices up to 700,000</sub>
 </p>
 
-The look into more common range of prices for every number of bedrooms shows that majority of all listings are between 90,000 and 300,000 AED. With a very noticeble spike for one bedroom apartments at aproximatly 100,000 AED.
+The look into more common range of prices for every number of bedrooms shows that majority of all listings are between 90,000 and 300,000 AED. With a very noticeable spike for one bedroom apartments at approximately 100,000 AED.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/all_bdr_prices_boxplot.png?raw=true">
@@ -160,7 +160,7 @@ The look into more common range of prices for every number of bedrooms shows tha
 
 Boxplot graphically demonstrates the locality, spread and skewness groups of prices for every number of bedrooms. This diagram indicates variability outside of the upper and lower quartiles.  
 
-One very noticeable thing is that four-bedroom apartments not only have huge interquartile range, but also very long whiskers on both sides, where left wisker overlaps with median price of three-bedroom listings. This could be another typo in listings, or possibly smaller total area or maybe a building on the edge of the district.
+One very noticeable thing is that four-bedroom apartments not only have huge interquartile range, but also very long whiskers on both sides, where left whisker overlaps with median price of three-bedroom listings. This could be another typo in listings, or possibly smaller total area or maybe a building on the edge of the district.
 
 Interestingly interquartile range for studios and 1 bedroom apartments is almost the same. Boxplot for studios has a nearly normal distribution, where 1 bedroom listings' distribution has a slightly heavier right tail. That discovery raises a new question, why to rent a studio if it's in the same price range as one bedroom listings. Perhaps those studios has larger areas.  
 
@@ -183,7 +183,7 @@ On the diagram above difference in total areas is clearly visible, with just a m
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/all_bdr_area_boxplot.png?raw=true">
-	<sub>Area of each beadroom boxplot</sub>
+	<sub>Area of each bedroom boxplot</sub>
 </p>
 
 Even though there're some studios with area above 750 sqft, still most of them are well apart from 1 bedroom listings.
@@ -208,7 +208,7 @@ After all data preprocessing there're 4,802 apartments left, listed below groupe
 
 ***
 
-## 1 & 2 bedroom aparments analysis
+## 1 & 2 bedroom apartments analysis
 For current tasks in this project on the next steps will be reviewed apartments for 1 and 2 bedrooms listings. 
 
 ### Prices
