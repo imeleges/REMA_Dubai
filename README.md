@@ -17,7 +17,7 @@
 [![Data preprocessing](https://img.shields.io/static/v1?label=skill&message=Data%20Preprocessing&color=B33771)](#)  
 
 **Problem statement:**  
-It is not straight forward for a newcomer to Dubai to understand how prices are assigned to lisitings. E.g. at first glance several lisitings of studio and 1 bedroom apartments in the given two areas of Dubai have appoximately same yearly price.  
+It is not straight forward for a newcomer to Dubai to understand how prices are assigned to listings. E.g. at first glance several lisitings of studio and 1 bedroom apartments in the given two areas of Dubai have appoximately same yearly price.  
 
 Questions to answer:  
  - How many options are there for different number of bedrooms? 
