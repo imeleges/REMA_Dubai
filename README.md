@@ -157,8 +157,8 @@ Area range:
 	<sub>Area in sqft up to 4,500</sub>
 </p>
 
-On the diagram above is clearly visible difference in total areas, with just minor overlap of 1700-2000 sqrt for 2 and 3 bedroom apartments.  
-Even though there's some studios has areas above 750 sqrt, still most of them are well appart from 1 bedroom apartments.
+On the diagram above difference in total areas is clearly visible, with just a minor overlap of 1700-2000 sqft for 2 and 3 bedroom apartments.  
+Even though there're some studios with area above 750 sqft, still most of them are well apart from 1 bedroom apartments.
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/all_bdr_area_boxplot.png?raw=true">
