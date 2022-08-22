@@ -4,7 +4,17 @@
 
 **DIFC** (Financial Centre) and **Downtown** areas apartments analysis.
 
-[![Data Analyst](https://img.shields.io/static/v1?label=trend&message=Data%20Analyst&color=218c74)](#) [![Data Scientist](https://img.shields.io/static/v1?label=trend&message=Data%20Scientist&color=706fd3)](#)
+[![Data Analyst](https://img.shields.io/static/v1?label=trend&message=Data%20Analyst&color=218c74)](#) [![Data Scientist](https://img.shields.io/static/v1?label=trend&message=Data%20Scientist&color=706fd3)](#)  
+
+[![Pandas](https://img.shields.io/static/v1?label=tool&message=Pandas&color=40407a)](#) 
+[![Python](https://img.shields.io/static/v1?label=tool&message=Python&color=33d9b2)](#) 
+[![Matplotlib](https://img.shields.io/static/v1?label=tool&message=Matplotlib&color=706fd3)](#) 
+[![Scikit-learn](https://img.shields.io/static/v1?label=tool&message=Sklearn&color=ff793f)](#) 
+[![Seaborn](https://img.shields.io/static/v1?label=tool&message=Seaborn&color=ff5252)](#)  
+
+[![Data visualization](https://img.shields.io/static/v1?label=skill&message=Data%20visualization&color=F97F51)](#) 
+[![Exploratory data analysis](https://img.shields.io/static/v1?label=skill&message=Exploratory%20Data%20Analysis&color=82589F)](#) 
+[![Data preprocessing](https://img.shields.io/static/v1?label=skill&message=Data%20Preprocessing&color=B33771)](#)  
 
 **Problem statement:**  
 It is not straight forward for a newcomer to Dubai to understand how prices are assigned to lisitings. E.g. at first glance several lisitings of studio and 1 bedroom apartments in the given two areas of Dubai have appoximately same yearly price.  
