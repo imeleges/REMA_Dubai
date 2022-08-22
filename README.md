@@ -179,25 +179,37 @@ Area of 37 sqft is obviously a typo, that couldn't be so small, and maximum area
 	<sub>Area in sqft up to 4,500</sub>
 </p>
 
-On the diagram above difference in total areas is clearly visible, with just a minor overlap of 1700-2000 sqft for 2 and 3 bedroom apartments.  
-
-Even though there're some studios with area above 750 sqft, still most of them are well apart from 1 bedroom apartments.
+On the diagram above difference in total areas is clearly visible, with just a minor overlap of 1,700-2,000 sqft for 2 and 3 bedroom apartments.  
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/all_bdr_area_boxplot.png?raw=true">
 	<sub>Area of each beadroom boxplot</sub>
 </p>
 
-...
+Even though there're some studios with area above 750 sqft, still most of them are well apart from 1 bedroom apartments.
 
 #### Bedrooms
+
+After all data preprocessing there's 4,802 listings left with total numbers for:  
+
+- Studio: 435
+- 1 Bedroom: 1474
+- 2 Bedrooms: 1983
+- 3 Bedrooms: 832
+- 4 Bedrooms: 75
+- 5 Bedrooms: 3
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/number_of_bdrs.png?raw=true">
 	<sub>Number of bedrooms</sub>
 </p>
 
-...
+**TOP-3** most listesd options would be for 2, 1 and then 3-bedroom apartments.  
+For current tasks in this project on the next steps will be reviewed apartments for 1 and 2 bedrooms listings.
+
+### 1 Bedroom apartments
+
+#### Prices
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/1bdr_prices_poxplot.png?raw=true">
@@ -207,7 +219,7 @@ Even though there're some studios with area above 750 sqft, still most of them a
 ...
 
 ***
-
+<!-- 
 ### Trends
 [![Data Analyst](https://img.shields.io/static/v1?label=trend&message=Data%20Analyst&color=218c74)](#)
 [![Data Scientist](https://img.shields.io/static/v1?label=trend&message=Data%20Scientist&color=706fd3)](#)
@@ -224,3 +236,4 @@ Even though there're some studios with area above 750 sqft, still most of them a
 [![Data preprocessing](https://img.shields.io/static/v1?label=skill&message=Data%20Preprocessing&color=B33771)](#)  
 
 ***
+ -->
