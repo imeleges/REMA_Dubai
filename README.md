@@ -213,19 +213,9 @@ For current tasks in this project on the next steps will be reviewed apartments 
 
 ### Prices
 
-For 1,474 listing of 1 bedroom apartments prices are vary
-- start at minimum of 59,998 AED
-- and goes up to 280,000 AED,
-- with median value of  115,000 AED.
-
-For 1,983 listing of 2 bedroom apartments prices are vary
-- start at minimum of 76,990 AED
-- and goes up to 600,000 AED,
-- with median value of  225,000 AED.
-
-
 |Prices range |1 Bedroom| 2 Bedrooms|
-|:--- | ---: | :---:|
+|:--- | :---: | :---:|
+|Count|1,474|1,983|
 |Min|59,998|76,990|
 |Median|115,000|225,000|
 |Max|280,000|600,000|
