@@ -226,6 +226,8 @@ For current tasks in this project on the next steps will be reviewed apartments 
 	<sub>1 & 2 bedroom prices from 60,000 to 450,000</sub>
 </p>
 
+In most common range of prices from 60,000 to 450,000, 1-bedroom apartments are concentrated between 80,000 and 130,000, where 2-bedrooms are much wider distributed across all range.
+
 ...
 
 ***
