@@ -211,6 +211,15 @@ After all data preprocessing there're 4,802 apartments left, listed below groupe
 ## 1 & 2 bedroom apartments analysis
 For current tasks in this project on the next steps will be reviewed apartments for 1 and 2 bedrooms listings. 
 
+At the beginning of analysis when [checked for unique values](#number-of-unique-values-per-feature) there were **2204** in description and **2219** in description title. To check each of them is time consuming, better to find most common words or phrases in that text. TOP-30 phrases should be enough.
+
+<p align="center">
+	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/wordclouds.png?raw=true">
+	<sub>Word clouds for description (left) & description title (right)</sub>
+</p>
+
+Among all listings description a few phrases that are common, but could be ignored, such as `Real Estate`, `Burj Khalifa`, `Downtown` and etc. as they simply bring no value. What is useful to notice is that `Fully Furnished`, `Fitted Kitchen`, `Chiller free`, `Swimming pool`, `Bills included` and some other.
+
 ### Prices
 
 |Prices range |1 Bedroom| 2 Bedrooms|
