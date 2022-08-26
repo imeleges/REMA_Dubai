@@ -218,7 +218,8 @@ At the beginning of analysis when [checked for unique values](#number-of-unique-
 	<sub>Word clouds for description (left) & description title (right)</sub>
 </p>
 
-Among all listings description a few phrases that are common, but could be ignored, such as `Real Estate`, `Burj Khalifa`, `Downtown` and etc. as they simply bring no value. What is useful to notice is that `Fully Furnished`, `Fitted Kitchen`, `Chiller free`, `Swimming pool`, `Bills included` and some other.
+Among all listings description a few phrases that are common, but could be ignored, such as `Real Estate`, `Burj Khalifa`, `Downtown` and etc. as they simply bring no value.  
+What is useful to notice is that `Fully Furnished`, `Fitted Kitchen`, `Chiller free`, `Swimming pool`, `Bills included` and some other phrases could potentially affect prices.    
 
 ### Prices
 
