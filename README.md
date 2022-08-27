@@ -219,7 +219,7 @@ Earlier, while [checking for unique values](#number-of-unique-values-per-feature
 </p>
 
 There are few common phrases such as `Real Estate`, `Burj Khalifa`, `Downtown` and etc. that should be ignored as they bring no value.  
-Meanwhile useful phrases like `Fully Furnished`, `Fitted Kitchen`, `Chiller free`, `Swimming pool`, `Bills included` etc. could be affecting prices, so sjould be detected.    
+Meanwhile useful phrases like `Fully Furnished`, `Fitted Kitchen`, `Chiller free`, `Swimming pool`, `Bills included` etc. could be affecting prices, so should be detected.    
 
 ### Prices
 
