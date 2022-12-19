@@ -17,12 +17,11 @@
 [![Data preprocessing](https://img.shields.io/static/v1?label=skill&message=Data%20Preprocessing&color=B33771)](#)  
 
 **Problem statement:**  
-It is not straight forward for a newcomer to Dubai to understand how prices are assigned to listings. E.g. at first glance several listings of studio and 1 bedroom apartments in the given two areas of Dubai have approximately same yearly price while square area is quite different. Is studio a good value for its money?
+It is not straight forward for a newcomer to Dubai to understand how prices are assigned to listings. E.g. at first glance several listings of studio and 1 bedroom apartments in the given two areas of Dubai have approximately same yearly price while square area is quite different. Is studio a good value for its money in comparison to 1 bedroom flat?
 
 Questions to answer:  
  - How many options by number of bedrooms are there to choose from? 
- - If studios, 1 and 2 bedroom flats seem close in their square areas and features, what is different about them?
- - 
+ - Do studios, 1 and 2 bedroom flats differ significantly in their square areas and features, what is different about them?
  - ...
   - ...
 
@@ -162,7 +161,7 @@ Boxplot demonstrates spread and skewness of rental prices by number of bedrooms.
 
 One very noticeable thing is that four-bedroom apartments not only have huge interquartile range, but also very long whiskers on both sides, where left whisker overlaps with median price of three-bedroom listings. This could be another error, possibly smaller total area or a building on the edge of the district.
 
-Interestingly interquartile range for studios and 1 bedroom apartments is almost the same. Studios prices have nearly symmetrical distribution, while 1 bedroom listings distribution has a heavier right tail. That discovery raises a new question, why rent a studio if it's in the same price range as one bedroom listings. Perhaps those studios has larger areas, are located in more prestigious buildings or are furnished.
+Interestingly interquartile range for studios and 1 bedroom apartments is almost the same. Studios prices have nearly symmetrical distribution, while 1 bedroom listings distribution has a heavier right tail. That discovery raises a new question, why rent a studio if it's in the same price range as one bedroom listings? Perhaps those studios has larger areas, are located in more prestigious buildings or are furnished. At teh same time, if lower rental price is a prioriy, rgere are studios to choose from. 
 
 
 #### Area
@@ -170,9 +169,9 @@ Interestingly interquartile range for studios and 1 bedroom apartments is almost
 Area range: 
 - start at minimum of 37 sq.ft.,
 - and goes up to 6,792 sq.ft.,
-- with median value of 1346 sq.ft.
+- with median value of 1,346 sq.ft.
 
-Area of 37 sq.ft. is obviously an error. Largest areas could be an errro too or a misplaced listings that were supposed to be under a commecial category (offices, shops, etc).
+Area of 37 sq.ft. is obviously an error. Largest areas could be an error too or a misplaced listings that were supposed to be under a commecial category (offices, shops, etc).
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/area_4_500.png?raw=true">
@@ -187,6 +186,8 @@ On the diagram above difference in total areas is clearly visible, with just a m
 </p>
 
 Even though there're some studios with area above 750 sq.ft., still most of them are well apart from 1 bedroom listings.
+Interesting fact: areas have less ranges in each category which makes sense - apartments in tall buildings tend to be alike by size and floorplan.
+Another thing is that areas are much more apart from one another than rental prices which means price heavily depends on additional facts, not square area alone.
 
 #### Bedrooms
 
