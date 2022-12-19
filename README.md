@@ -136,9 +136,9 @@ Prices range:
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/prices_all.png?raw=true">
 	<sub>Prices for all listings</sub>
-
-Outliers start from price 500,000 and spread up to 3,000,000. Most likely it's a huge apartment with many rooms and that is more luxurious or it's an error.
 </p>
+
+Outliers start from price 500,000 and spread up to 3,000,000. Most likely it's a huge apartment with many rooms and that is more luxurious or it's an error.<br>
 
 <p align="center">
 	<img src="https://github.com/imeleges/REMA_Dubai/blob/main/img/prices_logs.png?raw=true">
